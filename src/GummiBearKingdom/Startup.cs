@@ -35,7 +35,6 @@ namespace GummiBearKingdom
 
         public void Configure(IApplicationBuilder app)
         {
-            //2
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

@@ -8,6 +8,9 @@ namespace GummiBearKingdom.Models
 {
     public class GBKingdomContext : DbContext
     {
+        public GBKingdomContext()
+        {
+        }
         public virtual DbSet<Product> Products { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)

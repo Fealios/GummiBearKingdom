@@ -200,5 +200,8 @@ c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Program.cs
 c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
 c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\HomeController.cs
 c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\ProductController.cs
+c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20170422165110_Initial.cs
+c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20170422165110_Initial.Designer.cs
+c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GBKingdomContextModelSnapshot.cs
 c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Models\GBKingdomContext.cs
 c:\users\epicodus\desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Product.cs
