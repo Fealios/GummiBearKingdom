@@ -1,10 +1,8 @@
-﻿@model GummiBearKingdom.Models.Product
-
-<html>
-<head>
-    <title>Product - Details</title>
-</head>
-<body>
+﻿@{
+    ViewData["Title"] = "Product - Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model GummiBearKingdom.Models.Product
     <h2>Details</h2>
     <hr />
     Product: @Html.DisplayFor(model => model.product_name)
@@ -13,5 +11,3 @@
         <li>@Html.DisplayFor(model => model.country)</li>
     </ul>
     <p>@Html.ActionLink("Back to list", "Index")</p>
-</body>
-</html>
