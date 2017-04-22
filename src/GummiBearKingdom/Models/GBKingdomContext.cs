@@ -14,5 +14,15 @@ namespace GummiBearKingdom.Models
         {
             options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GBKingdom;integrated security=True");
         }
+
+        public GBKingdomContext(DbContextOptions<GBKingdomContext> options)
+            : base(options)
+        {
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }
