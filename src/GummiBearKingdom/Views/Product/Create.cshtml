@@ -3,8 +3,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model GummiBearKingdom.Models.Product
-    <h2>Create</h2>
-    <hr />
+    
+<div id="form-holder">
+    <h2 id="page-header">Create</h2>
     <h4>Add a new product</h4>
     @using (Html.BeginForm())
     {
@@ -14,6 +15,7 @@
         @Html.TextBoxFor(model => model.cost)
         <label>Product Country:</label>
         @Html.TextBoxFor(model => model.country)
-        <input type="submit" value="Add new task" />
+        <input class="btn-primary" type="submit" value="Add new task" />
     }
-    <p>@Html.ActionLink("Back to list", "Index")</p>
+    <a class="btn btn-default" href="/Product">Back to List</a>
+</div>

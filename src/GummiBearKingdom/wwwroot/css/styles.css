@@ -1,8 +1,9 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Delius+Unicase:700');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
 
 #banner-holder {
     background-image: url("../img/gummy-bears.jpg");
-    height: 50vh;
+    height: 35vh;
     background-repeat: no-repeat;
 }
 
@@ -30,4 +31,54 @@
 
 #splash {
     text-align: center;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #8EEFFF;
+}
+
+.nav-tabs {
+    background-color: #8EEFFF;
+    border-width: 5px;
+    border-color: #19A4BC;
+}
+
+#product-holder {
+    padding-top: 10vh;
+    width: 40vw;
+    position: fixed;
+    left: 40vw;
+}
+
+.product{
+    padding-top: 45px;
+    padding-left: 10px;
+    width: 100%;
+    height: 10vh;
+    border: solid;
+    border-color: white;
+    border-width: 6px;
+    border-radius: 5px;
+    font-family: 'Baloo', cursive;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#page-header {
+    font-size: 40px;
+    font-family: 'Delius Unicase', cursive;
+}
+
+#form-holder {
+    padding-top: 45px;
+    padding-left: 10px;
+    width: 100%;
+    height: 10vh;
 }

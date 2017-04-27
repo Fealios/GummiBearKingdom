@@ -3,13 +3,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model IEnumerable<GummiBearKingdom.Models.Product>
-    <h2>To Do List</h2>
-    <h4>Products:</h4>
-    <ul>
-        @foreach (var listItem in Model)
-        {
-            <li>@Html.DisplayFor(modelItem => listItem.product_name) | @Html.ActionLink("Details", "Details", new { id = listItem.id }) | @Html.ActionLink("Edit", "Edit", new  { id = listItem.id })  | @Html.ActionLink("Delete", "Delete", new { id = listItem.id })</li>
-        }
-    </ul>
 
-    <p>@Html.ActionLink("Add new product", "Create")</p>
+    <div id="product-holder">
+        <h2 id="page-header">Products</h2>
+            <ul>
+                @foreach (var listItem in Model)
+                {
+                    <li>
+                        <div class="product">
+                            @Html.DisplayFor(modelItem => listItem.product_name) | @Html.ActionLink("Details", "Details", new { id = listItem.id }) | @Html.ActionLink("Edit", "Edit", new { id = listItem.id })  | @Html.ActionLink("Delete", "Delete", new { id = listItem.id })
+                        </div>
+                    </li>
+                }
+            </ul>
+        <a class="btn btn-default" href="Product/Create">Add new Product</a>
+    </div>
